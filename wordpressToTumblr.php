@@ -1,9 +1,9 @@
 <?php
 
 // Set the following parameters
-$tumblrEmail = '';
-$tumblrPassword = '';
-$file = '';
+$tumblrEmail = 'abardana@pnca.edu';
+$tumblrPassword = 'dusty1142';
+$file = 'tempblog.wordpress.2014-01-19-2.xml';
 
 $tumblr = new Tumblr();
 $tumblr->setCredentials($tumblrEmail, $tumblrPassword);
